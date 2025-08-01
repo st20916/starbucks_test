@@ -144,6 +144,7 @@
 	```
 
 
+
 # 2025.08.01
 * `git add` 와 `git commit` 은 한 쌍
 
@@ -154,3 +155,43 @@ git add 대상 파일
 ```
 git commit -m "description"
 ```
+
+## 수정 후 진행
+1. git add .
+	* 하나만 수정했을 경우, git add "대상 파일"
+```
+git add .
+git add 대상 파일
+```
+
+2. git commit -m "description"
+```
+git commit -m "description"
+```
+
+3. git remote -v
+```
+git remote -v
+```
+
+4. git push origin main
+```
+git push origin main
+```
+
+
+### 알아야 할 점
+* 수시로 상태 확인해주는 것이 좋다.
+	```
+	git status
+	```
+
+* 브랜치 리스트 확인
+	```
+	git branch -a
+	```
+
+* checkout 은 즉, 다른 저장소로 check-in 했다는 것
+	```
+	git checkout
+	```
