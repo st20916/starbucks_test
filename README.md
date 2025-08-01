@@ -193,5 +193,5 @@ git push origin main
 
 * checkout 은 즉, 다른 저장소로 check-in 했다는 것
 	```
-	git checkout
+	git checkout 저장소명
 	```
