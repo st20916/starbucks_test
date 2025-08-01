@@ -142,3 +142,15 @@
 	```
 	git pull
 	```
+
+
+# 2025.08.01
+* `git add` 와 `git commit` 은 한 쌍
+
+```
+git add 대상 파일
+```
+
+```
+git commit -m "description"
+```
